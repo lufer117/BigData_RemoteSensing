@@ -1,0 +1,424 @@
+PS G:\Mi unidad\TFM\TFM-repositorio> git init
+Reinitialized existing Git repository in G:/Mi unidad/TFM/TFM-Repositorio/.git/
+PS G:\Mi unidad\TFM\TFM-repositorio> git lfs install
+Updated Git hooks.
+Git LFS initialized.
+PS G:\Mi unidad\TFM\TFM-repositorio> git lfs track "*.tif"
+Tracking "*.tif"
+PS G:\Mi unidad\TFM\TFM-repositorio> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   "0-AOI/Imagenes_documento/\303\201rea de estudio_Laguna de La Cocha.jpg"
+        new file:   "0-AOI/Imagenes_documento/\303\201rea de estudio_RHVA_NDVI.jpg"
+        new file:   "0-AOI/Imagenes_documento/\303\201rea de estudio_general.jpg"
+        new file:   0-AOI/Laguna de La Cocha/aoi_geojson
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.cpg
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.dbf
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.prj
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.shp
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.shx
+        new file:   0-AOI/RHVA/RHVA.cpg
+        new file:   0-AOI/RHVA/RHVA.dbf
+        new file:   0-AOI/RHVA/RHVA.prj
+        new file:   0-AOI/RHVA/RHVA.shp
+        new file:   0-AOI/RHVA/RHVA.shx
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.cpg
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.dbf
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.fix
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.prj
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.shp
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.shx
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.cpg
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.dbf
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.prj
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.shp
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.shx
+        new file:   1-water_monitoring/Data/notebook_reference_monitoring_inland_water_area.ipynb
+        new file:   1-water_monitoring/Results/Profundidad_LaCocha.tif
+        new file:   1-water_monitoring/Results/extension_la_cocha_time_series.csv
+        new file:   1-water_monitoring/Results/max_depth_la_cocha.csv
+        new file:   1-water_monitoring/Results/surface_water.gif
+        new file:   1-water_monitoring/Results/surface_water_label.gif
+        new file:   1-water_monitoring/Results/timeseries_water_surface_area.png
+        new file:   1-water_monitoring/Results/timeseries_water_surface_area_maxline.png
+        new file:   1-water_monitoring/Results/total_volume_la_cocha.csv
+        new file:   "1-water_monitoring/Scripts/Monitoreo_de_morfolog\303\255a_Laguna_de_La_Cocha.ipynb"
+        new file:   "1-water_monitoring/Scripts/Monitoreo_de_morfolog\303\255a_Laguna_de_La_Cocha_sinimagen.ipynb"
+        new file:   2-cover_land_k-means/Data/2002/Landsat7_2002_LaCocha.jpg
+        new file:   2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha.tif
+        new file:   2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha.tif.aux.xml
+        new file:   2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha_viz.tif
+        new file:   2-cover_land_k-means/Data/2024/LaCocha2024.jpg.aux.xml
+        new file:   2-cover_land_k-means/Data/2024/LaCocha_2024.tif
+        new file:   2-cover_land_k-means/Data/2024/LaCocha_2024.tif.aux.xml
+        new file:   2-cover_land_k-means/Results/areas_coberturas.csv
+        new file:   2-cover_land_k-means/Results/coef_silueta.csv
+        new file:   2-cover_land_k-means/Results/diferencia_areas_coberturas.csv
+        new file:   2-cover_land_k-means/Results/imagenes_segmentadas.png
+        new file:   2-cover_land_k-means/Results/imagenes_segmentadas_labels.png
+        new file:   2-cover_land_k-means/Results/inercia_plot.png
+        new file:   2-cover_land_k-means/Results/iteraciones.csv
+        new file:   2-cover_land_k-means/Scripts/k_means_imgsatelital_2002_2024.ipynb
+        new file:   2-cover_land_k-means/Scripts/k_means_imgsatelital_2002_2024_sinimagen.ipynb
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2000.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2001.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2002.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2003.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2004.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2005.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2006.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2007.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2008.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2009.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2010.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2011.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2012.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2013.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2014.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2015.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2016.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2017.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2018.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2019.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2020.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2021.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2022.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2023.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2024.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2000.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2001.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2002.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2003.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2004.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2005.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2006.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2007.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2008.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2009.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2010.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2011.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2012.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2013.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2014.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2015.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2016.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2017.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2018.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2019.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2020.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2021.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2022.tif
+        new file:   3-ndvi_analysis/Data/RHVA/min_mean_ndvi_series.csv
+        new file:   3-ndvi_analysis/Data/RHVA/min_mean_ndvi_series.png
+        new file:   3-ndvi_analysis/Data/RHVA/numero_imagenes.csv
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/Sentinel2_Mosaic_2022_Normalized.tif
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/Sentinel2_Mosaic_2022_reprojected_mask.tif
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/landsat7_2002.tif
+        new file:   "3-ndvi_analysis/Data/RHVA_fase1/landsat7_2002_visualizaci\303\263n.tif"
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/landsat_sentinel_comparison.png
+        new file:   3-ndvi_analysis/Results/RHVA/deforestation_area.csv
+        new file:   3-ndvi_analysis/Results/RHVA/deforestation_mask.tif
+        new file:   3-ndvi_analysis/Results/RHVA/deforestation_mask_map.png
+        new file:   3-ndvi_analysis/Results/RHVA/diff_ndvi_RHVA.tif
+        new file:   3-ndvi_analysis/Results/RHVA/ndvi_animation_RHVA.gif
+        new file:   3-ndvi_analysis/Results/RHVA/ndvi_delta_within_rhva.png
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/deforestation_area_fase1.csv
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/deforestation_threshold.png
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/delta_ndvi_mask.csv
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/delta_ndvi_mask.png
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/ndvi_before_after.png
+        new file:   3-ndvi_analysis/Scripts/Cambios_NDVI_RHVA.ipynb
+
+PS G:\Mi unidad\TFM\TFM-repositorio> git add .
+PS G:\Mi unidad\TFM\TFM-repositorio> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   "0-AOI/Imagenes_documento/\303\201rea de estudio_Laguna de La Cocha.jpg"
+        new file:   "0-AOI/Imagenes_documento/\303\201rea de estudio_RHVA_NDVI.jpg"
+        new file:   "0-AOI/Imagenes_documento/\303\201rea de estudio_general.jpg"
+        new file:   0-AOI/Laguna de La Cocha/aoi_geojson
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.cpg
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.dbf
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.prj
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.shp
+        new file:   0-AOI/Laguna de La Cocha/geometry_aoi.shx
+        new file:   0-AOI/RHVA/RHVA.cpg
+        new file:   0-AOI/RHVA/RHVA.dbf
+        new file:   0-AOI/RHVA/RHVA.prj
+        new file:   0-AOI/RHVA/RHVA.shp
+        new file:   0-AOI/RHVA/RHVA.shx
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.cpg
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.dbf
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.fix
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.prj
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.shp
+        new file:   0-AOI/RHVA/RHVA_CRS_Reproyectado.shx
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.cpg
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.dbf
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.prj
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.shp
+        new file:   0-AOI/RHVA_Fase1/RHVA_fase1.shx
+        new file:   1-water_monitoring/Data/notebook_reference_monitoring_inland_water_area.ipynb
+        new file:   1-water_monitoring/Results/Profundidad_LaCocha.tif
+        new file:   1-water_monitoring/Results/extension_la_cocha_time_series.csv
+        new file:   1-water_monitoring/Results/max_depth_la_cocha.csv
+        new file:   1-water_monitoring/Results/surface_water.gif
+        new file:   1-water_monitoring/Results/surface_water_label.gif
+        new file:   1-water_monitoring/Results/timeseries_water_surface_area.png
+        new file:   1-water_monitoring/Results/timeseries_water_surface_area_maxline.png
+        new file:   1-water_monitoring/Results/total_volume_la_cocha.csv
+        new file:   "1-water_monitoring/Scripts/Monitoreo_de_morfolog\303\255a_Laguna_de_La_Cocha.ipynb"
+        new file:   "1-water_monitoring/Scripts/Monitoreo_de_morfolog\303\255a_Laguna_de_La_Cocha_sinimagen.ipynb"
+        new file:   2-cover_land_k-means/Data/2002/Landsat7_2002_LaCocha.jpg
+        new file:   2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha.tif
+        new file:   2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha.tif.aux.xml
+        new file:   2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha_viz.tif
+        new file:   2-cover_land_k-means/Data/2024/LaCocha2024.jpg.aux.xml
+        new file:   2-cover_land_k-means/Data/2024/LaCocha_2024.tif
+        new file:   2-cover_land_k-means/Data/2024/LaCocha_2024.tif.aux.xml
+        new file:   2-cover_land_k-means/Results/areas_coberturas.csv
+        new file:   2-cover_land_k-means/Results/coef_silueta.csv
+        new file:   2-cover_land_k-means/Results/diferencia_areas_coberturas.csv
+        new file:   2-cover_land_k-means/Results/imagenes_segmentadas.png
+        new file:   2-cover_land_k-means/Results/imagenes_segmentadas_labels.png
+        new file:   2-cover_land_k-means/Results/inercia_plot.png
+        new file:   2-cover_land_k-means/Results/iteraciones.csv
+        new file:   2-cover_land_k-means/Scripts/k_means_imgsatelital_2002_2024.ipynb
+        new file:   2-cover_land_k-means/Scripts/k_means_imgsatelital_2002_2024_sinimagen.ipynb
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2000.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2001.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2002.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2003.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2004.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2005.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2006.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2007.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2008.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2009.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2010.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2011.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2012.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2013.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2014.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2015.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2016.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2017.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2018.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2019.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2020.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2021.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2022.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2023.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2024.jpg
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2000.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2001.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2002.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2003.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2004.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2005.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2006.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2007.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2008.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2009.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2010.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2011.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2012.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2013.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2014.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2015.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2016.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2017.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2018.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2019.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2020.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2021.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2022.tif
+        new file:   3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2024.tif
+        new file:   3-ndvi_analysis/Data/RHVA/min_mean_ndvi_series.csv
+        new file:   3-ndvi_analysis/Data/RHVA/min_mean_ndvi_series.png
+        new file:   3-ndvi_analysis/Data/RHVA/numero_imagenes.csv
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/Sentinel2_Mosaic_2022_Normalized.tif
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/Sentinel2_Mosaic_2022_reprojected_mask.tif
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/landsat7_2002.tif
+        new file:   "3-ndvi_analysis/Data/RHVA_fase1/landsat7_2002_visualizaci\303\263n.tif"
+        new file:   3-ndvi_analysis/Data/RHVA_fase1/landsat_sentinel_comparison.png
+        new file:   3-ndvi_analysis/Results/RHVA/deforestation_area.csv
+        new file:   3-ndvi_analysis/Results/RHVA/deforestation_mask.tif
+        new file:   3-ndvi_analysis/Results/RHVA/deforestation_mask_map.png
+        new file:   3-ndvi_analysis/Results/RHVA/diff_ndvi_RHVA.tif
+        new file:   3-ndvi_analysis/Results/RHVA/ndvi_animation_RHVA.gif
+        new file:   3-ndvi_analysis/Results/RHVA/ndvi_delta_within_rhva.png
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/deforestation_area_fase1.csv
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/deforestation_threshold.png
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/delta_ndvi_mask.csv
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/delta_ndvi_mask.png
+        new file:   3-ndvi_analysis/Results/RHVA_fase1/ndvi_before_after.png
+        new file:   3-ndvi_analysis/Scripts/Cambios_NDVI_RHVA.ipynb
+
+PS G:\Mi unidad\TFM\TFM-repositorio> git commit -m "Agregar archivos" 
+[main (root-commit) b7dff8f] Agregar archivos
+ 123 files changed, 33016 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 "0-AOI/Imagenes_documento/\303\201rea de estudio_Laguna de La Cocha.jpg"
+ create mode 100644 "0-AOI/Imagenes_documento/\303\201rea de estudio_RHVA_NDVI.jpg"
+ create mode 100644 "0-AOI/Imagenes_documento/\303\201rea de estudio_general.jpg"
+ create mode 100644 0-AOI/Laguna de La Cocha/aoi_geojson
+ create mode 100644 0-AOI/Laguna de La Cocha/geometry_aoi.cpg
+ create mode 100644 0-AOI/Laguna de La Cocha/geometry_aoi.dbf
+ create mode 100644 0-AOI/Laguna de La Cocha/geometry_aoi.prj
+ create mode 100644 0-AOI/Laguna de La Cocha/geometry_aoi.shp
+ create mode 100644 0-AOI/Laguna de La Cocha/geometry_aoi.shx
+ create mode 100644 0-AOI/RHVA/RHVA.cpg
+ create mode 100644 0-AOI/RHVA/RHVA.dbf
+ create mode 100644 0-AOI/RHVA/RHVA.prj
+ create mode 100644 0-AOI/RHVA/RHVA.shp
+ create mode 100644 0-AOI/RHVA/RHVA.shx
+ create mode 100644 0-AOI/RHVA/RHVA_CRS_Reproyectado.cpg
+ create mode 100644 0-AOI/RHVA/RHVA_CRS_Reproyectado.dbf
+ create mode 100644 0-AOI/RHVA/RHVA_CRS_Reproyectado.fix
+ create mode 100644 0-AOI/RHVA/RHVA_CRS_Reproyectado.prj
+ create mode 100644 0-AOI/RHVA/RHVA_CRS_Reproyectado.shp
+ create mode 100644 0-AOI/RHVA/RHVA_CRS_Reproyectado.shx
+ create mode 100644 0-AOI/RHVA_Fase1/RHVA_fase1.cpg
+ create mode 100644 0-AOI/RHVA_Fase1/RHVA_fase1.dbf
+ create mode 100644 0-AOI/RHVA_Fase1/RHVA_fase1.prj
+ create mode 100644 0-AOI/RHVA_Fase1/RHVA_fase1.shp
+ create mode 100644 0-AOI/RHVA_Fase1/RHVA_fase1.shx
+ create mode 100644 1-water_monitoring/Data/notebook_reference_monitoring_inland_water_area.ipynb
+ create mode 100644 1-water_monitoring/Results/Profundidad_LaCocha.tif
+ create mode 100644 1-water_monitoring/Results/extension_la_cocha_time_series.csv
+ create mode 100644 1-water_monitoring/Results/max_depth_la_cocha.csv
+ create mode 100644 1-water_monitoring/Results/surface_water.gif
+ create mode 100644 1-water_monitoring/Results/surface_water_label.gif
+ create mode 100644 1-water_monitoring/Results/timeseries_water_surface_area.png
+ create mode 100644 1-water_monitoring/Results/timeseries_water_surface_area_maxline.png
+ create mode 100644 1-water_monitoring/Results/total_volume_la_cocha.csv
+ create mode 100644 "1-water_monitoring/Scripts/Monitoreo_de_morfolog\303\255a_Laguna_de_La_Cocha.ipynb"
+ create mode 100644 "1-water_monitoring/Scripts/Monitoreo_de_morfolog\303\255a_Laguna_de_La_Cocha_sinimagen.ipynb"
+ create mode 100644 2-cover_land_k-means/Data/2002/Landsat7_2002_LaCocha.jpg
+ create mode 100644 2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha.tif
+ create mode 100644 2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha.tif.aux.xml
+ create mode 100644 2-cover_land_k-means/Data/2002/landsat7_2002_LaCocha_viz.tif
+ create mode 100644 2-cover_land_k-means/Data/2024/LaCocha2024.jpg.aux.xml
+ create mode 100644 2-cover_land_k-means/Data/2024/LaCocha_2024.tif
+ create mode 100644 2-cover_land_k-means/Data/2024/LaCocha_2024.tif.aux.xml
+ create mode 100644 2-cover_land_k-means/Results/areas_coberturas.csv
+ create mode 100644 2-cover_land_k-means/Results/coef_silueta.csv
+ create mode 100644 2-cover_land_k-means/Results/diferencia_areas_coberturas.csv
+ create mode 100644 2-cover_land_k-means/Results/imagenes_segmentadas.png
+ create mode 100644 2-cover_land_k-means/Results/imagenes_segmentadas_labels.png
+ create mode 100644 2-cover_land_k-means/Results/inercia_plot.png
+ create mode 100644 2-cover_land_k-means/Results/iteraciones.csv
+ create mode 100644 2-cover_land_k-means/Scripts/k_means_imgsatelital_2002_2024.ipynb
+ create mode 100644 2-cover_land_k-means/Scripts/k_means_imgsatelital_2002_2024_sinimagen.ipynb
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2000.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2001.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2002.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2003.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2004.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2005.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2006.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2007.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2008.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2009.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2010.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2011.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2012.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2013.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2014.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2015.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2016.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2017.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2018.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2019.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2020.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2021.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2022.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2023.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images JPG/NDVI_2024.jpg
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2000.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2001.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2002.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2003.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2004.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2005.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2006.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2007.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2008.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2009.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2010.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2011.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2012.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2013.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2014.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2015.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2016.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2017.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2018.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2019.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2020.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/Images TIFF/NDVI_2021.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA/min_mean_ndvi_series.csv
+ create mode 100644 3-ndvi_analysis/Data/RHVA/min_mean_ndvi_series.png
+ create mode 100644 3-ndvi_analysis/Data/RHVA_fase1/Sentinel2_Mosaic_2022_Normalized.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA_fase1/Sentinel2_Mosaic_2022_reprojected_mask.tif
+ create mode 100644 3-ndvi_analysis/Data/RHVA_fase1/landsat7_2002.tif
+ create mode 100644 "3-ndvi_analysis/Data/RHVA_fase1/landsat7_2002_visualizaci\303\263n.tif"
+ create mode 100644 3-ndvi_analysis/Data/RHVA_fase1/landsat_sentinel_comparison.png
+ create mode 100644 3-ndvi_analysis/Results/RHVA/deforestation_area.csv
+ create mode 100644 3-ndvi_analysis/Results/RHVA/deforestation_mask.tif
+ create mode 100644 3-ndvi_analysis/Results/RHVA/deforestation_mask_map.png
+ create mode 100644 3-ndvi_analysis/Results/RHVA/diff_ndvi_RHVA.tif
+ create mode 100644 3-ndvi_analysis/Results/RHVA/ndvi_animation_RHVA.gif
+ create mode 100644 3-ndvi_analysis/Results/RHVA_fase1/deforestation_area_fase1.csv
+ create mode 100644 3-ndvi_analysis/Results/RHVA_fase1/deforestation_threshold.png
+ create mode 100644 3-ndvi_analysis/Results/RHVA_fase1/delta_ndvi_mask.png
+ create mode 100644 3-ndvi_analysis/Results/RHVA_fase1/ndvi_before_after.png
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote -v    
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote add origin https://github.com/lufer117/TFM-repositorio.git
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote -v
+origin  https://github.com/lufer117/TFM-repositorio.git (fetch)
+origin  https://github.com/lufer117/TFM-repositorio.git (push)
+PS G:\Mi unidad\TFM\TFM-repositorio> git push origin main
+Uploading LFS objects: 100% (35/35), 468 MB | 15 MB/s, done.
+Enumerating objects: 147, done.
+Compressing objects: 100% (137/137), done.
+Writing objects: 100% (147/147), 35.82 MiB | 3.81 MiB/s, done.
+To https://github.com/lufer117/TFM-repositorio.git
+ * [new branch]      main -> main
+On branch main
+nothing to commit, working tree clean
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote -v
+origin  https://github.com/lufer117/TFM-repositorio.git (fetch)
+origin  https://github.com/lufer117/TFM-repositorio.git (push)
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote set-url origin gh repo clone lufer117/BigData_Teledetection
+usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    --[no-]push           manipulate push URLs
+    --[no-]add            add URL
+    --[no-]delete         delete URLs
+
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote set-url origin https://github.com/lufer117/BigData_Teledetection.git
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote -v
+origin  https://github.com/lufer117/BigData_Teledetection.git (fetch)
+origin  https://github.com/lufer117/BigData_Teledetection.git (push)
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote set-url origin https://github.com/lufer117/BigData_RemoteSensing.git
+PS G:\Mi unidad\TFM\TFM-repositorio> git remote -v
+origin  https://github.com/lufer117/BigData_RemoteSensing.git (fetch)
+origin  https://github.com/lufer117/BigData_RemoteSensing.git (push)
+PS G:\Mi unidad\TFM\TFM-repositorio> git status
+On branch main
+nothing to commit, working tree clean
+PS G:\Mi unidad\TFM\TFM-repositorio> 
